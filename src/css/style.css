@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #e9e9e9;
+}
+
+p {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+figure figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  justify-content: space-between;
+  padding: 10px 64px;
+}
+
+header img {
+  width: 500px;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 20px;
+  margin: 0 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #acacac;
+}
+
+address {
+  color: #fff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+section h2,
+footer {
+  background-color: #000;
+  color: #fff;
+  margin: 32px 0;
+  padding: 8px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 26px;
+}
+
+section .container figure,
+section .container div {
+  width: 45%;
+}
+
+section .container {
+  justify-content: center;
+  gap: 32px;
+}
+
+.local {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+figure img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 0.3s ease-in-out;
+}
+
+figure img:hover {
+  opacity: 0.9;
+}
+
+figure.what-is img {
+  width: 200px;
+  height: 250px;
+}
+
+figure.benefits img {
+  width: 200px;
+  height: 200px;
+}
+
+figure.sustainability img {
+  width: 200px;
+  height: 450px;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+}
