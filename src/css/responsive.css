@@ -1,0 +1,129 @@
+@media (max-width: 1024px) {
+  header {
+    padding: 32px;
+  }
+
+  header img {
+    width: 450px;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    font-size: 18px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  figure.about img {
+    width: 100%;
+    height: 200px;
+  }
+
+  figure.what-is img {
+    width: 32%;
+    height: 270px;
+  }
+
+  figure.benefits img {
+    width: 32%;
+    height: 150px;
+  }
+
+  figure.sustainability img {
+    width: 49%;
+    height: 530px;
+  }
+
+  .gallery figure figcaption {
+    max-width: 300px;
+  }
+
+  footer {
+    padding: 16px;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer nav ul li {
+    display: block;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-flex {
+    flex-direction: column;
+  }
+
+  header {
+    padding: 32px 8px;
+  }
+
+  header img {
+    width: 360px;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    font-size: 16px;
+    margin: 0 8px;
+  }
+
+  header address {
+    margin: 22px;
+  }
+
+  section h2 {
+    font-size: 22px;
+  }
+
+  section .container figure,
+  section .container div {
+    width: 80%;
+  }
+
+  section .container {
+    gap: 8px;
+  }
+
+  figure.about img {
+    width: 100%;
+    height: 180px;
+  }
+
+  figure.what-is img,
+  figure.benefits img {
+    width: 32%;
+    height: 200px;
+  }
+
+  figure.sustainability img {
+    width: 49%;
+    height: 250px;
+  }
+
+  .gallery {
+    margin: 0 16px;
+    flex-direction: row;
+  }
+
+  .gallery img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .gallery figure figcaption {
+    max-width: 170px;
+  }
+}
